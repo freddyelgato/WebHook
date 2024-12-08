@@ -1,8 +1,7 @@
 require 'sinatra'
 require 'json'
 
-# Configuración para escuchar en todas las interfaces
-set :bind, '0.0.0.0'  # Esto es importante para que Sinatra escuche en todas las interfaces
+set :bind, '0.0.0.0'  
 
 # Define a POST route for the '/webhook' endpoint
 post '/webhook' do
